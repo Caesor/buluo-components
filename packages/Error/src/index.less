@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+.error {
+    position: relative;
+}
+
+.error:before {
+    content: '';
+    display: block;
+    width: 84px;
+    height: 84px;
+    margin: 0 auto;
+    background: url('./network-error.png') no-repeat center center;
+    background-size: 100% 100%;
+}
+
+
+.error-text {
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 10px;
+}
